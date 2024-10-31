@@ -1,0 +1,35 @@
+.project-slide {
+    text-align: center;
+}
+
+.project-slide img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.project-slide h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.project-slide p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.project-slide a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-slide a:hover {
+    background-color: #555;
+}

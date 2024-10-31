@@ -8,19 +8,19 @@ const projects = [
   {
     title: "Project 1",
     description: "Project 1 description...",
-    image: "/progress.jpg",
+    image: "./progress.jpg",
     link: "#"
   },
   {
     title: "Project 2",
     description: "Project 2 description...",
-    image: "/progress.jpg",
+    image: "./progress.jpg",
     link: "#"
   },
   {
     title: "Project 3",
     description: "Project 3 description...",
-    image: "/progress.jpg",
+    image: "./progress.jpg",
     link: "#"
   }
 ];
@@ -30,7 +30,7 @@ function App() {
     <div className="Personal-Portfolio">
       <Navbar />
       <header className="Portfolio-Header" id="home">
-        <img src="/headshot.jpg" alt="Caleb Free" className="headshot"/>
+        <img src="./headshot.jpg" alt="Caleb Free" className="headshot"/>
       </header>
       <section id="about">
         <p>

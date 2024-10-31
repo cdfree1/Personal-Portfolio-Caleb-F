@@ -20,7 +20,7 @@ const Navbar = () => {
                 Caleb Free
             </h1>
             <div className="links">
-                <a href="#home" onClick={(e) => handleScroll(e, 'home', 0)}>Home</a>
+                <a href="#home" onClick={(e) => handleScroll(e, 'home', 50)}>Home</a>
                 <a href="#projects" onClick={(e) => handleScroll(e, 'projects', -100)}>Projects</a>
                 <a href="#contact" onClick={(e) => handleScroll(e, 'contact', 0)}>Contact</a>
             </div>

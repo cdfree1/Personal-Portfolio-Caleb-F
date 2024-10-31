@@ -6,7 +6,7 @@ const Navbar = () => {
         const targetElement = document.getElementById(targetId);
         const navbarHeight = document.querySelector('.navbar').offsetHeight;
         const additionalOffset = offsetAmount; 
-        const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - navbarHeight - additionalOffset;
+        const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - navbarHeight - additionalOffset;
         
         window.scrollTo({
             top: targetPosition,

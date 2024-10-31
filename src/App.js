@@ -3,24 +3,26 @@ import './App.css';
 import Navbar from './components/Navbar';
 import ProjectSlide from './components/ProjectSlide';
 import { FaLinkedin, FaInstagram, FaGithub, FaEnvelope } from 'react-icons/fa';
+import headshot from './headshot.jpg';
+import progress from './progress.jpg';
 
 const projects = [
   {
     title: "Project 1",
     description: "Project 1 description...",
-    image: "./progress.jpg",
+    image: progress,
     link: "#"
   },
   {
     title: "Project 2",
     description: "Project 2 description...",
-    image: "./progress.jpg",
+    image: progress,
     link: "#"
   },
   {
     title: "Project 3",
     description: "Project 3 description...",
-    image: "./progress.jpg",
+    image: progress,
     link: "#"
   }
 ];
@@ -30,7 +32,7 @@ function App() {
     <div className="Personal-Portfolio">
       <Navbar />
       <header className="Portfolio-Header" id="home">
-        <img src="./headshot.jpg" alt="Caleb Free" className="headshot"/>
+        <img src={headshot} alt="Caleb Free" className="headshot"/>
       </header>
       <section id="about">
         <p>

@@ -4,26 +4,14 @@ import Navbar from './components/Navbar';
 import ProjectSlide from './components/ProjectSlide';
 import { FaLinkedin, FaInstagram, FaGithub, FaEnvelope } from 'react-icons/fa';
 import headshot from './headshot.jpg';
-import progress from './progress.jpg';
+import Bookly  from './progress.jpg';
 
 const projects = [
   {
-    title: "Project 1",
-    description: "Project 1 description...",
+    title: "Bookly AI",
+    description: "Bookly AI is a web applicationBookly AI is a web application that utilizes OpenAI's API to take an image of a book from a user and return detailed information about it. The app uses Next.js for a responsive and dynamic front-end, ensuring a smooth user experience. The image is sent to the back-end, built with FastAPI, where it is processed and analyzed through OpenAI's image recognition capabilities. The extracted data includes the book's title, author, genre, and a brief synopsis, all delivered instantly to the user. This seamless integration of front-end and back-end technologies offers an efficient and engaging way for users to discover more about books through simple image input. which utilizes OpenAI's API to take an image of a book from a user and return information on it",
     image: progress,
-    link: "#"
-  },
-  {
-    title: "Project 2",
-    description: "Project 2 description...",
-    image: progress,
-    link: "#"
-  },
-  {
-    title: "Project 3",
-    description: "Project 3 description...",
-    image: progress,
-    link: "#"
+    link: "https://bookly-ai.vercel.app/"
   }
 ];
 
@@ -47,7 +35,7 @@ function App() {
       <section id="contact">
         <h2 className="contactme">Contact Me</h2>
         <div className="contact-icons">
-          <a href="mailto:calebdfree@gmail.com" aria-label="Email"><FaEnvelope /></a>
+          <a href="mailto:cdfree@unc.edu" aria-label="Email"><FaEnvelope /></a>
           <a href="https://www.linkedin.com/in/caleb-free-7aa842249/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
           <a href="https://www.instagram.com/caleb_free3.0/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram /></a>
           <a href="https://github.com/cdfree1" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><FaGithub /></a>

@@ -4,13 +4,13 @@ import Navbar from './components/Navbar';
 import ProjectSlide from './components/ProjectSlide';
 import { FaLinkedin, FaInstagram, FaGithub, FaEnvelope } from 'react-icons/fa';
 import headshot from './headshot.jpg';
-import Bookly  from './progress.jpg';
+import BooklyAI  from './Bookly-AI.png';
 
 const projects = [
   {
     title: "Bookly AI",
     description: "Bookly AI is a web applicationBookly AI is a web application that utilizes OpenAI's API to take an image of a book from a user and return detailed information about it. The app uses Next.js for a responsive and dynamic front-end, ensuring a smooth user experience. The image is sent to the back-end, built with FastAPI, where it is processed and analyzed through OpenAI's image recognition capabilities. The extracted data includes the book's title, author, genre, and a brief synopsis, all delivered instantly to the user. This seamless integration of front-end and back-end technologies offers an efficient and engaging way for users to discover more about books through simple image input. which utilizes OpenAI's API to take an image of a book from a user and return information on it",
-    image: progress,
+    image: BooklyAI,
     link: "https://bookly-ai.vercel.app/"
   }
 ];

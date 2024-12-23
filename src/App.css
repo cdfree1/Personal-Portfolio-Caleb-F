@@ -58,3 +58,9 @@ section p {
 .contact-icons a:hover {
   color: #f7df1e; 
 }
+
+@media (max-width: 768px) {
+  .Personal-Portfolio {
+    padding-top: 15rem; /* Adjust for smaller header */
+  }
+}

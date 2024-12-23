@@ -20,7 +20,7 @@ const projects = [
     link: "https://cdfree1.github.io/Personal-Portfolio-Caleb-F/"
   },
   {
-    title: "Project 2",
+    title: "Project 3",
     description: "NA",
     image: progress,
     link: "https://cdfree1.github.io/Personal-Portfolio-Caleb-F/"
